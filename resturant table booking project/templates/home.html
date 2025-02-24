@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Reservation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1 >Welcome to All india Restaurant</h1><br>
+    <p><b>Click below to book a table.</b></p>
+    <img src="https://t3.ftcdn.net/jpg/03/24/73/92/360_F_324739203_keeq8udvv0P2h1MLYJ0GLSlTBagoXS48.jpg" alt="table" top="1"right='1'/>
+     <a href="{{ url_for('reserve') }}"><h3>Reserve a Table</h3></a>
+</body>
+</html>
